@@ -1,0 +1,29 @@
+.offer{
+    width: 75%;
+    margin: 0 auto 100px;
+}
+
+.offer__title{
+    text-align: center;
+    padding: 30px;
+    font-family: boldPoppins;
+    font-size: 40px;
+    color: $color1;
+}
+
+.offer__container{
+    display: flex;
+    gap: 50px;
+}
+
+@media screen and(min-width:900px) and(max-width:1100px) {
+    .offer{
+        width: 100%;
+    }
+}
+
+@media screen and(max-width: 899px) {
+    .offer__container{
+        flex-direction: column;
+    }
+}
